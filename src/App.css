@@ -2,37 +2,156 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.librarypage{
+  display: block;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.formStyle{
+  display: block;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.addPost{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+.newblog{
+  padding: 8px 24px;
+  background-color: #8cc928 ;
+  cursor: pointer;
+  color: #fff ;
+  border: none;
+  height: max-content;
+  border-radius: 5px ;
+}
+
+.librarytable table{
+  width: 100%;
+  border-spacing: 0px;
+  padding-bottom: 0px;
+  border-radius: 2px;
+  border: 0.5px solid #e4e4e4 !important;
+}
+
+table th{
+  background-color: #f3f3f3 !important;
+  text-align: left;
+ padding: 10px;
+ padding-left: 15px;
+ padding-right: 15px;
+ font-weight: 500 !important;
+ font-size: 14px !important;
+ border-bottom: 0.5px solid #e4e4e4 !important;
+}
+
+table td{
+  text-align: left;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px !important;
+  border-bottom: 0.5px solid #e4e4e4 !important;
+}
+
+table img{
+  width: 45px;
+  height: 45px;
+
+}
+
+.color-grey{
+  color: #a6a6a6 !important;
+  font-weight: 400 !important;
+}
+
+.color-blue{
+  color: #10A1EA !important;
+  cursor: pointer;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.row .MuiFormControl-root{
+  width: 100% !important;
+}
+
+.heighted .MuiInputBase-root{
+  min-height: 100px !important;
+ 
+  align-items: flex-start !important;
+}
+
+.m-t-30{
+  margin-top: 30px;
+}
+
+.m-t-20{
+  margin-top: 20px !important;
+}
+
+.submitbtn{
+  padding: 12px 40px;
+  background-color: #8cc928 ;
+  font-size: 15px;
+  cursor: pointer;
+  color: #fff ;
+  border: none;
+  height: max-content;
+  border-radius: 5px ;
+}
+
+.rowcenter{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.backbtn{
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.m-t-70{
+  margin-top: 70px;
 }
+
+
+.color-green{
+  color:#8cc928;
+}
+
+.fa-arrow-left{
+  margin-right: 8px;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #8cc928 !important;
+}
+.textlabel:focus{
+  color: #8cc928 !important;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #8cc928 !important;
+}
+
